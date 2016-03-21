@@ -125,9 +125,8 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: 2px;
+    background-color: #F9F9F9;
 }
 
 code {
@@ -143,6 +142,14 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: $grey-color-light;
+    margin: 20px 0;
 }
 
 
@@ -178,24 +185,5 @@ pre {
         content: "";
         display: table;
         clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }

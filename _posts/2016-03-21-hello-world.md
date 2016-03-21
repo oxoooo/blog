@@ -15,12 +15,18 @@ author: XiNGRZ
 
 这个博客基于 [Jekyll](https://jekyllrb.com) 搭建，托管于 [GitHub Pages](https://pages.github.com)。
 
-```java
-public class HelloActivity extends Activity {
+---
 
-    public void onCreate(Bundl savedInstation) {
-        // GitHub Pages 最近的渲染引擎什么鬼，竟然不支持 GFM 了…
-    }
+吐槽一下，现在 GitHub Pages 要这么做才能让本地和服务端的渲染结果一致：
 
-}
+```yml
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+```
+
+```sh
+echo "What The…"
 ```
