@@ -1,0 +1,5 @@
+title: blog.oxo.ooo
+email: support@oxo.ooo
+url: "https://blog.oxo.ooo" # the base hostname & protocol for your site
+
+markdown: kramdown
